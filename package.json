@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
     "vue": "^3.2.37"
   },
   "devDependencies": {
