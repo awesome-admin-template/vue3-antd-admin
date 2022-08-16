@@ -1,5 +1,5 @@
 /**
- * feature：新功能
+ * feat：新功能
  * update：更新某功能
  * fixbug：修补某功能的bug
  * refactor：重构某个功能
@@ -11,7 +11,7 @@
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
-    'type-enum': [2, 'always', ['feature', 'update', 'fixbug', 'refactor', 'optimize', 'style', 'docs', 'chore']],
+    'type-enum': [2, 'always', ['feat', 'update', 'fixbug', 'refactor', 'optimize', 'style', 'docs', 'chore']],
     'type-case': [0],
     'type-empty': [0],
     'scope-empty': [0],
