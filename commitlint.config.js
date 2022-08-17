@@ -34,7 +34,7 @@ module.exports = {
       confirmCommit: '是否提交或修改 commit ？',
     },
     types: [
-      { value: 'feat', name: 'feat:     新增功能' },
+      { value: 'feat', name: 'feat:     新增功能', emoji: ':sparkles:' },
       { value: 'fix', name: 'fix:      修复缺陷' },
       { value: 'types', name: 'types:    类型修改' },
       { value: 'docs', name: 'docs:     文档变更' },
@@ -68,5 +68,6 @@ module.exports = {
     ],
     customIssuePrefixsAlign: !issue ? 'top' : 'bottom',
     defaultIssues: !issue ? '' : `#${issue}`,
+    useEmoji: true,
   },
 }
